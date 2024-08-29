@@ -23,7 +23,10 @@
   "author": "dls",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^8.56.0",
+    "@eslint/js": "^9.9.1",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "9.1.0",
+    "globals": "^15.9.0",
     "jest": "^29.7.0",
     "prettier": "3.1.1",
     "webpack": "^5.89.0",
