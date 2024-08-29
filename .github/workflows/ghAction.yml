@@ -22,3 +22,5 @@ jobs:
       #  - name: Run Linter for Code Quality
       #    run: npm run lint
       # Ne fonctionne pas 
+        - name: Run Unit Tests
+          run: npm run test
