@@ -5,7 +5,14 @@ module.exports = {
         "es2021": true,
         "jest": true
     },
-    "extends": "eslint:recommended",
+    "extends": [
+        "eslint:recommended",
+        "plugin:jest/recommended"],
+
+        "plugins": [
+    "jest"
+  ],
+
     "overrides": [
         {
             "env": {
@@ -26,4 +33,7 @@ module.exports = {
     "rules": {
         "no-console": "error"
     }
+
+  
 }
+
